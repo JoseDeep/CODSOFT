@@ -26,7 +26,7 @@ def calculator():
     print("4. Divide")
     print("5. Modulo")
     
-    choice = input("Enter choice (1/2/3/4): ")
+    choice = input("Enter choice (1/2/3/4/5): ")
     
     if choice == '1':
         print(f"The result is: {add(num1, num2)}")
